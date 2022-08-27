@@ -10,7 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom --alluredir=./allure_results  --junitxml=./xmlReport/output.xml",
+    "test": "react-scripts test --env=jsdom --outputFile=test.report.json --json",
     "eject": "react-scripts eject"
   }
 }
